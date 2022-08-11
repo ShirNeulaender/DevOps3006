@@ -20,3 +20,5 @@ def load_game():
 
     while difficulty not in range(1, 5):
         difficulty = input("Please choose a level of difficulty from 1 to 5: ")
+
+    return difficulty

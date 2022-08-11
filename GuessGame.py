@@ -1,8 +1,9 @@
 import random
 from Live import set_difficulty
+from Live import load_game
+# difficulty = set_difficulty()
 
-difficulty = set_difficulty()
-
+difficulty = load_game()
 
 def generate_number():
     secret_number = random.randint(1, difficulty)
